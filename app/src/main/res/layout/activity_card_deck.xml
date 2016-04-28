@@ -9,13 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.app.alex_robin.project_wzg.CardDeck">
 
-    <TextView
+    <ImageButton
+        android:id="@+id/cardButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="CardDeck"
-        android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="95dp" />
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/cardback"
+        android:onClick="nextCard"/>
 </RelativeLayout>
